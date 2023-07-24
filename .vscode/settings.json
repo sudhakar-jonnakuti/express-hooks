@@ -1,0 +1,33 @@
+{
+  "window.zoomLevel": 0,
+  "files.eol": "\n",
+  "[javascript][typescript][json]": {
+    "editor.tabSize": 2
+  },
+  "editor.wordWrap": "on",
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "terminal.integrated.defaultProfile.windows": "GitBash",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "CommandPrompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "GitBash": {
+      "source": "Git Bash",
+      "path": [
+        "C:\\Program Files\\Git\\bin\\bash.exe"
+      ],
+      "icon": "terminal-bash"
+    }
+  }
+}

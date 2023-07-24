@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+node .husky/shell/pre-push.js

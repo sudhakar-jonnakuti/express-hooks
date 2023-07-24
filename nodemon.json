@@ -1,0 +1,7 @@
+{
+  "watch": ["src"],
+  "ignore": ["node_modules"],
+  "ext": "ts,js,json",
+  "exec": "tsup && node -r tsconfig-paths/register dist/index.js",
+  "legacyWatch": true
+}
